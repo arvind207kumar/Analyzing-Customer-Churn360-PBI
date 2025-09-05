@@ -186,6 +186,12 @@ This consolidation simplifies churn comparison between short-term and long-term 
 
 <img width="333" height="514" alt="image" src="https://github.com/user-attachments/assets/a756edb6-e60f-4151-8d4e-abb6e3bb9837" />
 
+<img width="612" height="233" alt="image" src="https://github.com/user-attachments/assets/9dc8053d-013c-418d-a0af-5c5ee4131740" />
+
+<img width="321" height="183" alt="image" src="https://github.com/user-attachments/assets/344a46b8-eaad-4fce-9b2f-c35e5f1fb150" />
+
+
+
 
 
 These engineered features enable:
