@@ -4,9 +4,34 @@ A dynamic Power BI dashboard designed to uncover churn patterns in a telecom com
 
 ---
 
-## 🎯 Short Description / Purpose
+## 📌 Table of Contents
 
-The Churn360 Insights Dashboard is a comprehensive Power BI report built to analyze customer churn behavior for a subscription-based telecom provider. It helps stakeholders identify key drivers of churn and supports strategic decisions to improve customer retention. This tool is ideal for business analysts, data scientists, and customer success teams aiming to reduce churn and optimize service delivery.
+- [🎯 Project Overview](#project-overview)
+- [📚 Data Dictionary](#data-dictionary)
+- [🛠️ Tech Stack](#tech-stack)
+- [🗃️ Data Source](#data-source)
+- [📊 Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [🧠 Feature Engineering & Segmentation](#feature-engineering--segmentation)
+- [✨ Dashboard Highlights](#dashboard-highlights)
+- [📈 Business Impact & Insights](#business-impact--insights)
+- [🖼️ Screenshots](#screenshots)
+- [🚀 Getting Started](#getting-started)
+- [📬 Contact](#contact)
+
+---
+
+## 🎯 Project Overview
+
+**Goal:**  
+Build an interactive Power BI dashboard to analyze customer churn for a fictional telecom provider. The dashboard identifies churn-prone segments and supports strategic decisions for retention and upselling.
+
+**Target Users:**  
+Business analysts, data scientists, customer success teams.
+
+**Key Questions Addressed:**
+- Which customer segments are most likely to churn?
+- How do contract types and payment methods influence churn?
+- Does international usage or customer service interaction correlate with churn?
 
 ---
 
@@ -182,18 +207,6 @@ This consolidation simplifies churn comparison between short-term and long-term 
 ---
 
 ### 📈 Analytical Impact
-<img width="691" height="507" alt="image" src="https://github.com/user-attachments/assets/8c1f9a05-3a61-42ba-b784-f32491a636bf" />
-
-<img width="333" height="514" alt="image" src="https://github.com/user-attachments/assets/a756edb6-e60f-4151-8d4e-abb6e3bb9837" />
-
-<img width="612" height="233" alt="image" src="https://github.com/user-attachments/assets/9dc8053d-013c-418d-a0af-5c5ee4131740" />
-
-<img width="321" height="183" alt="image" src="https://github.com/user-attachments/assets/344a46b8-eaad-4fce-9b2f-c35e5f1fb150" />
-
-
-
-
-
 These engineered features enable:
 
 - Churn heatmaps by **Age Group**, **Contract Type**, and **Data Usage**
@@ -266,6 +279,51 @@ To deliver an interactive, data-driven dashboard that:
 
 ## 🖼️ Screenshots / Demos
 
+
+### 📊 Dashboard Overview  
+*Figure 1: High-level KPIs and churn distribution across tenure buckets*  
+![Dashboard Overview](assets/dashboard-overview.png)
+
+### 📈 Churn by Contract Type  
+*Figure 2: Month-to-month contracts show highest churn rate*  
+![Contract Type Analysis](assets/contract-type-churn.png)
+
+### 🧍 Churn by Age Bucket  
+*Figure 3: Youth and Adult segments show higher churn*  
+![Age Bucket Churn](assets/age-bucket-churn.png)
+
+### 📶 Data Usage vs. Churn  
+*Figure 4: Heavy data users with limited plans show elevated churn*  
+![Data Usage Analysis](assets/data-usage-churn.png)
+
+---
+
+## 🚀 Getting Started
+
+To explore the dashboard:
+1. Clone this repository  
+2. Open `Dashboard.pbix` in Power BI Desktop  
+3. Use slicers to filter by contract type, tenure, and payment method  
+4. Explore churn patterns across segments
+
+---
+
+## 📬 Contact
+
+For questions, feedback, or collaboration opportunities:
+
+- **LinkedIn**: [Arvind Kumar](https://www.linkedin.com/in/arvind-kumar-560885231/)  
+- **GitHub Issues**: Open a ticket in this repo  
+- **Email**: aknarayan.000@gmail.com
+
+
+
+
+
+
+
+
+
 | 📊 Dashboard Preview | 📈 Visual Highlights |
 |----------------------|----------------------|
 | ![Dashboard Overview](Dashboard.png) | ![Churn Breakdown](Dashboard1.png) |
@@ -274,7 +332,7 @@ To deliver an interactive, data-driven dashboard that:
 
 ## 📬 Contact
 
-For questions, feedback, or collaboration opportunities, feel free to reach out via [LinkedIn]([https://www.linkedin.com/in/arvind207kumar/](https://www.linkedin.com/in/arvind-kumar-560885231/)) or open an issue in this repository.
+For questions, feedback, or collaboration opportunities, feel free to reach out via [LinkedIn]((https://www.linkedin.com/in/arvind-kumar-560885231/)) or open an issue in this repository.
 
 ---
 
