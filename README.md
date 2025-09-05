@@ -101,7 +101,7 @@ Structured across multiple tables with metadata for column descriptions and busi
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-Before building the dashboard, a comprehensive EDA was conducted to understand the dataset, clean and transform the data, and engineer meaningful features for churn analysis.
+A comprehensive EDA was conducted to understand the dataset, clean and transform the data, and engineer meaningful features for churn analysis.
 
 ---
 
@@ -182,6 +182,11 @@ This consolidation simplifies churn comparison between short-term and long-term 
 ---
 
 ### 📈 Analytical Impact
+<img width="691" height="507" alt="image" src="https://github.com/user-attachments/assets/8c1f9a05-3a61-42ba-b784-f32491a636bf" />
+
+<img width="333" height="514" alt="image" src="https://github.com/user-attachments/assets/a756edb6-e60f-4151-8d4e-abb6e3bb9837" />
+
+
 
 These engineered features enable:
 
