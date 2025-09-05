@@ -71,7 +71,7 @@ This section provides detailed metadata for the dataset used in the Churn360 Ins
 
 ---
 
-You can use this dictionary to understand the structure and semantics of the dataset powering the dashboard. It also helps in feature engineering, filtering, and interpreting visual insights.
+This dictionary to understand the structure and semantics of the dataset powering the dashboard. It also helps in feature engineering, filtering, and interpreting visual insights.
 
 
 ## 🛠️ Tech Stack
@@ -88,8 +88,6 @@ The dashboard was developed using the following tools and technologies:
 
 ## 🗃️ Data Source
 
-**Source**: Provided by DataCamp as part of the Power BI case study course.
-
 The dataset simulates customer data from a fictional telecom company named **Databel**, including:
 
 - Customer demographics (gender, senior citizen status, tenure)
@@ -100,6 +98,102 @@ The dataset simulates customer data from a fictional telecom company named **Dat
 Structured across multiple tables with metadata for column descriptions and business context.
 
 ---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Before building the dashboard, a comprehensive EDA was conducted to understand the dataset, clean and transform the data, and engineer meaningful features for churn analysis.
+
+---
+
+### 🔍 Key Steps in EDA
+
+#### 🧼 Data Cleaning & Preparation
+
+- **Missing Value Handling**:  
+  Checked for nulls and inconsistencies across all columns to ensure data integrity.
+
+- **Data Type Conversion**:  
+  - Converted monetary columns (`Monthly Charges`, `Total Charges`, `Extra International/Data Charges`) from whole numbers to currency format for better readability.
+  - Transformed abbreviated `State` codes into full **State + Province** names to support geographic segmentation.
+
+---
+
+#### 📊 Categorical & Numerical Analysis
+
+- **Categorical Exploration**:  
+  - Analyzed churn distribution across contract types, payment methods, and age groups.
+  - Performed frequency analysis of churn reasons and grouped churn categories.
+
+- **Numerical Exploration**:  
+  - Assessed correlation between tenure, service usage, and churn likelihood.
+  - Detected outliers in charges and customer service interactions.
+
+---
+
+### 🧠 Feature Engineering & Segmentation
+
+To enhance the dashboard’s analytical depth, several calculated columns and buckets were created:
+
+#### 📆 Tenure Buckets
+
+| Bucket Name     | Tenure Range (Months) |
+|-----------------|------------------------|
+| New             | 0–12                   |
+| Mid-Term        | 13–24                  |
+| Long-Term       | 25+                    |
+
+These buckets help identify churn patterns based on customer lifecycle stage.
+
+#### 🧍 Age Buckets
+
+| Segment Name   | Age Range     |
+|----------------|---------------|
+| Youth          | Under 30      |
+| Adult          | 30–49         |
+| Middle-Aged    | 50–64         |
+| Senior         | 65 and above  |
+
+Useful for demographic targeting and understanding churn across life stages.
+
+#### 📶 Monthly Data Usage Buckets
+
+| Usage Category     | Avg Monthly GB Download |
+|--------------------|--------------------------|
+| Low Usage          | Less than 5 GB           |
+| Moderate Usage     | 5–15 GB                  |
+| High Usage         | 15–30 GB                 |
+| Heavy Usage        | More than 30 GB          |
+
+Buckets were created separately for:
+- Customers with **Unlimited Data Plans**
+- Customers with **Limited Data Plans**
+
+This segmentation reveals how data consumption and plan type influence churn behavior.
+
+#### 📅 Contract Duration Consolidation
+
+| Contract Group | Original Types Included     |
+|----------------|-----------------------------|
+| Monthly        | Month-to-Month              |
+| Yearly         | One Year, Two Year          |
+
+This consolidation simplifies churn comparison between short-term and long-term subscribers.
+
+---
+
+### 📈 Analytical Impact
+
+These engineered features enable:
+
+- Churn heatmaps by **Age Group**, **Contract Type**, and **Data Usage**
+- Comparative churn analysis between **Unlimited vs. Limited** data users
+- Strategic insights into which customer segments require focused retention efforts
+- Enhanced filtering and storytelling in the Power BI dashboard
+
+---
+
+
+
 
 ## ✨ Features / Highlights
 
@@ -169,7 +263,7 @@ To deliver an interactive, data-driven dashboard that:
 
 ## 📬 Contact
 
-For questions, feedback, or collaboration opportunities, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/arvind207kumar/) or open an issue in this repository.
+For questions, feedback, or collaboration opportunities, feel free to reach out via [LinkedIn]([https://www.linkedin.com/in/arvind207kumar/](https://www.linkedin.com/in/arvind-kumar-560885231/)) or open an issue in this repository.
 
 ---
 
