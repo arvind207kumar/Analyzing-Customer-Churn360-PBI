@@ -236,11 +236,8 @@ Separate buckets for:
 
 *Figure 5: Churn rate distribution based on whether customers have an international plan and whether they are active. Highlights how churn varies across combinations of plan type and activity level.*
 
-| Intl Plan | No       | Yes      | Total   |
-|-----------|----------|----------|---------|
-| yes       | 71.19%   | 7.59%    | 24.88%  |
-| no        | 20.01%   | 40.34%   | 27.07%  |
-| Total     | 22.21%   | 34.31%   | 26.86%  |
+<img width="321" height="183" alt="image" src="https://github.com/user-attachments/assets/436c8c26-f02b-4392-af66-400a645783c4" />
+
 
 
 ---
