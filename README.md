@@ -137,9 +137,8 @@ Structured across multiple tables with metadata for business context.
 
 | Segment Name | Age Range     |
 |--------------|---------------|
-| Youth        | Under 30      |
-| Adult        | 30–49         |
-| Middle-Aged  | 50–64         |
+| Under 30     | Under 30      |
+| Other        | 30–64         |
 | Senior       | 65 and above  |
 
 ### 📶 Monthly Data Usage Buckets
@@ -258,4 +257,4 @@ For questions, feedback, or collaboration opportunities:
 
 - **LinkedIn**: [Arvind Kumar](https://www.linkedin.com/in/arvind-kumar-560885231/)  
 - **GitHub Issues**: Open a ticket in this repo  
-- **Email**: arvind207kumar@gmail.com
+- **Email**: aknarayan.000@gmail.com
