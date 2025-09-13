@@ -6,9 +6,13 @@ A dynamic Power BI dashboard designed to uncover churn patterns in a telecom com
 
 ## 🔗 Related Projects
 
-For predictive modeling of customer churn using Artificial Neural Networks and Streamlit, check out the companion repository:
-
+For predictive modeling of customer churn using Artificial Neural Networks and Streamlit, check out the companion repository:  
 👉 [Ann-Churn-Classification-using-Streamlit](https://github.com/arvind207kumar/Ann-Churn-Classification-using-Streamlit)
+
+For a Tableau-based visualization of the same telecom churn dataset, explore the interactive dashboard here:  
+👉 [Customer-Churn-Telecom-Insights-with-Tableau](https://github.com/arvind207kumar/Customer-Churn-Telecom-Insights-with-Tableau)
+
+
 
 
 ## 📌 Table of Contents
